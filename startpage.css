@@ -37,6 +37,7 @@ body {
 	text-align: center;
 	background-color: #272b35;
 	opacity: 0.2;
+	position: relative;
 }
 
 .square:hover {
