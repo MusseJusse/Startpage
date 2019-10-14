@@ -1,5 +1,9 @@
 html{
-	background-color: #272b35;
+	/*background-color: #272b35;*/
+	background-image: url("forest1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+
 }
 
 body {
@@ -29,9 +33,15 @@ body {
 	font-family: Ubuntu Mono;
 	font-size: 1rem;
 	width: 100%;
-	height: 20em;
+	height: 9.5em;
 	margin: 0em .5em;
 	text-align: center;
+	background-color: #272b35;
+	opacity: 0.2;
+}
+
+.square:hover {
+	opacity: 0.7;
 }
 
 /* Bookmark Headers */
@@ -65,8 +75,13 @@ a:hover {
 	height: 35px;
 	display: table;
 	margin: 0 auto;
-	padding-top: 100px;
+	padding-bottom: 30px;
 	overflow: hidden;
+	opacity: 0.2;
+}
+
+.search:hover {
+	opacity: 0.7 ;
 }
 
 /* Seach Text */
@@ -75,9 +90,10 @@ a:hover {
 	margin: 0;
 	width: 200px;
 	height: 40px;
+	padding-left: 10px;;
 	border: 0;
 	background-color: #272b35;
-	color: #8c8c8b;
+	color: #fff;
 }
 
 /* Seach Button Box */
@@ -88,7 +104,7 @@ a:hover {
 	border: 0;
 	background-color: #272b35;
 	cursor: pointer;
-	color: #8c8c8b;
+	color: #fff;
 }
 
 /* Seach Button Icon */
